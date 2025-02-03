@@ -3,142 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ehtesham Ahmed</title>
+    <title>Ehtesham Ahmed - Portfolio</title>
     <style>
-        body {
+        body {direction: ltr;  /* left to right */}
+        {
             font-family: 'Montserrat', sans-serif;
-            background: linear-gradient(135deg, #181818, #2e2e2e);
-            color: #d1d1d1;
+            background: linear-gradient(135deg, #e0f7fa, #fff3e0); /* Light gradient from pale blue to light peach */
+            color: #555555; 
             margin: 0;
             padding: 0;
+            text-align: center;
         }
         header {
-            background: rgba(0, 0, 0, 0.9);
+            background: #1abc9c;
             padding: 20px;
-            text-align: center;
             font-size: 36px;
             font-weight: bold;
-            letter-spacing: 2px;
-            color: #a0a0a0;
+            color: white;
         }
         .container {
             width: 80%;
             margin: auto;
             padding: 20px;
         }
+.       .profile-img {
+            width: 150px; /* Set the width you want for the profile image */
+            height: 150px; /* Set the height to be the same as width for a square shape */
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover; /* Ensures the image covers the area without stretching */
+            border: 3px solid #fff; /* Optional: Adds a border around the image (you can change the color) */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+        }
         .section {
             background: rgba(255, 255, 255, 0.1);
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-            margin-bottom: 20px;
+            margin: 20px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
         }
-        #about h2, #resume h2, #services h2, h3 {
-            font-size: 32px;
-            color: #a0a0a0;
-            text-transform: uppercase;
+        .button {
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
         }
-        #about p, #resume p, #services p, ul li {
-            font-size: 18px;
-            font-weight: 300;
-            color: #b0b0b0;
-        }
-        strong {
-            color: #d35400;
-        }
-        span {
-            color: #1abc9c;
-        }
-        .social-links a {
-            color: #a0a0a0;
-            text-decoration: none;
-            font-size: 20px;
-            margin-right: 15px;
-        }
-        .social-links {
-            margin-top: 15px;
-        }
-        .profile-image {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-            border: 3px solid #a0a0a0;
-        }
-        .section ul {
-            list-style-type: disc;
-            padding-left: 20px;
+        .button:hover {
+            background-color: #16a085;
         }
     </style>
 </head>
 <body>
-    <header>Ehtesham Ahmed</header>
+    <header>Ehtesham Ahmed - Portfolio</header>
+    
     <div class="container">
-        <section class="section" id="about">
-            <img src="profile.jpg" alt="Ehtesham Ahmed" class="profile-image">
-            <h2>Who I Am</h2>
-            <p>
-                Passionate about perfection, I am a meticulous <strong>Quality Assurance Engineer</strong> ensuring the highest standards in digital products. 
-                With expertise in <span>software testing</span>, <span>data analysis</span>, <span>website design</span>, and <span>digital marketing</span>, I specialize in detecting anomalies, optimizing workflows, and enhancing user experiences. 
-                I bring a keen analytical eye, proficiency in <strong>Python & SQL</strong>, and deep knowledge of <strong>API testing</strong> to guarantee flawless execution of tech-driven solutions.
-            </p>
+        <section class="image-section">
+            <img src="D:\iPhone_backup\profile_pic.jpeg.jpg" alt="Your Image" />
         </section>
-        <section class="section" id="resume">
-            <h2>Resume</h2>
-            <h3>Experience</h3>
-            <p><strong>Freelancer</strong> - Self Employed (Dec 2022 - Present)</p>
-            <ul>
-                <li>Designed and developed professional websites using modern frameworks and best practices.</li>
-                <li>Leveraged ChatGPT for content generation, customer interaction, and automation.</li>
-                <li>Provided digital marketing strategies to enhance social media presence and business branding.</li>
-                <li>Created optimized social media profiles to drive engagement and reach targeted audiences.</li>
-            </ul>
+        
+        <section class="section" id="summary">
+            <h2>Summary</h2>
+            <p>I am a meticulous <strong>QA Engineer & Data Engineer</strong> passionate about software quality, automation, and data-driven solutions.</p>
+        </section>
+        
+        <section class="section" id="experience">
+            <h2>Experience</h2>
+        
             <p><strong>Data Quality Analyst</strong> - Skidos, Denmark (Feb 2022 - Dec 2022)</p>
             <ul>
-                <li>Ensured data accuracy and consistency across the gaming platform.</li>
-                <li>Performed data validation and cleansing for game development.</li>
-                <li>Collaborated with developers to enhance data integration processes.</li>
-                <li>Utilized SQL for querying and analyzing data sets for performance reports.</li>
+                <li>Ensured data accuracy and consistency across gaming platforms.</li>
+                <li>Performed data validation, cleansing, and integration for analytics.</li>
+                <li>Collaborated with developers to enhance data processes.</li>
+                <li>Used SQL for querying and performance reporting.</li>
             </ul>
+        
             <p><strong>Software Engineer</strong> - Happily Unmarried (Sep 2021 - Jan 2022)</p>
             <ul>
                 <li>Developed and maintained e-commerce platforms using Python and Django.</li>
-                <li>Optimized code for performance and scalability of web applications.</li>
-                <li>Integrated third-party APIs and ensured smooth user transactions.</li>
+                <li>Optimized backend performance and scalability.</li>
+                <li>Integrated third-party APIs for seamless transactions.</li>
             </ul>
-            <p><strong>Personal Assistant</strong> - Family Manufacturing Unit (Apr 2020 - Sep 2021)</p>
-            <ul>
-                <li>Managed administrative tasks for a small family business.</li>
-                <li>Coordinated communications and supply chain management.</li>
-                <li>Streamlined operations by implementing software tools for inventory management.</li>
-            </ul>
+        
             <p><strong>QA Engineer</strong> - IBM IT Services (Feb 2018 - Apr 2020)</p>
             <ul>
-                <li>Conducted manual and automated testing of software applications.</li>
-                <li>Created detailed test cases, scripts, and bug reports for development teams.</li>
+                <li>Conducted manual and automated testing for enterprise applications.</li>
+                <li>Created test cases, scripts, and bug reports for developers.</li>
                 <li>Led testing efforts for high-impact projects in the financial sector.</li>
-                <li>Used various testing frameworks and tools, including Selenium and JIRA, to track defects and improve software quality.</li>
+                <li>Used Selenium and JIRA for defect tracking and quality assurance.</li>
             </ul>
         </section>
+        
         <section class="section" id="services">
-            <h2>Services Offered</h2>
+            <h2>Services I Offer</h2>
             <ul>
-                <li>Website Design & Development</li>
-                <li>ChatGPT & AI-based Content Creation</li>
-                <li>Social Media Profile Optimization</li>
-                <li>Digital Marketing & Branding</li>
-                <li>Quality Assurance & Testing</li>
+                <li>Website Development</li>
+                <li>Data Engineering & Analytics</li>
+                <li>Software Quality Assurance</li>
+                <li>Automation Testing</li>
             </ul>
-            <h3>Contact Me</h3>
+        </section>
+        
+        <section class="section" id="contact">
+            <h2>Contact Me</h2>
             <p><strong>Email:</strong> ahmedehtesham609@gmail.com</p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/ehtu609" class="social-links">github.com/ehtu609</a></p>
-            <p><strong>LinkedIn:</strong> <a href="#" class="social-links">linkedin.com/in/ehteshamahmed</a></p>
-            <div class="social-links">
-                <a href="https://www.facebook.com/ehtesham.ahmed.75248/">Facebook</a>
-                <a href="https://www.instagram.com/ehtesham.ahmed.75248/">Instagram</a>
-                <a href="https://x.com/ehteshamrocks">Twitter</a>
-            </div>
+            <p><strong>GitHub:</strong> <a href="https://github.com/ehtu609">github.com/ehtu609</a></p>
+            <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/ehteshamahmed</a></p>
         </section>
     </div>
+    
+    <script>
+        function previewImage(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('profilePic').src = e.target.result;
+                    document.getElementById('profilePic').style.display = 'block';
+                }
+                reader.readAsDataURL(file);
+            }
+        }
+    </script>
 </body>
 </html>
